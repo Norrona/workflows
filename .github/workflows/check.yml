@@ -16,7 +16,7 @@ jobs:
     if: ${{ github.ref_type != 'tag' }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     # Build setup
     - name: Set up Docker Buildx
